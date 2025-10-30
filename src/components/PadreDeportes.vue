@@ -32,3 +32,29 @@ import HijoDeportes from './HijoDeportes.vue';
         }
     }
 </script>
+
+<style>
+    button {
+        background-color: #0d6efd;
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+
+    button:hover {
+        background-color: #0b5ed7;
+        transform: translateY(-1px);
+    }
+
+    button:active {
+        transform: translateY(0);
+    }
+
+    button:focus {
+        outline: 3px solid rgba(13, 110, 253, 0.25);
+        outline-offset: 2px;
+    }
+</style>
